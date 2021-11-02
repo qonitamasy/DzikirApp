@@ -1,11 +1,14 @@
 package com.qonita.dzikirapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
+import com.qonita.dzikirapp.model.Artikel
+import com.qonita.dzikirapp.ui.QauliyahActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var llDoaharian: LinearLayout
@@ -102,7 +105,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun initView() {
         llDzikirDoaShalat = findViewById(R.id.llDzikirDoaSholat)
-        llDzikirDoaShalat.setOnClickListener {  }
+        llDzikirDoaShalat.setOnClickListener {
+            startActivity(Intent(this, QauliyahActivity::class.java))
+        }
 
         llDoaharian = findViewById(R.id.llDzikirDoaHarian)
         llDoaharian.setOnClickListener {  }

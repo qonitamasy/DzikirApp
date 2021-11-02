@@ -1,4 +1,4 @@
-package com.qonita.dzikirapp
+package com.qonita.dzikirapp.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

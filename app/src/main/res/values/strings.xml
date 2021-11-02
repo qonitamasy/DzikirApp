@@ -8,6 +8,17 @@
     <string name="txt_dzikir_dan_doa_harian">Dzikir dan Doa harian</string>
     <string name="txt_dzikir_pagi_dan_petang">Dzikir Pagi dan petang</string>
     <string name="txt_artikel">Artikel</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_lafaz">lafaz</string>
+    <string name="txt_terjemah">terjemah</string>
+    <string name="txt_Qauliyah">Sunnah - Sunnah Qauliyah Dzikir dan Shalat</string>
+    <string name="txt_doa_harian">Dzikir dan Doa Harian</string>
+    <string name="txt_dzikir_pagi_petang"><![CDATA[Dzikir Pagi & Petang]]></string>
+    <string name="txt_desc_image_dzikir_pagi_petang"><![CDATA[Image Dzikir Pagi & Petang]]></string>
+    <string name="txt_dzikir_pagi">Dzikir Pagi</string>
+    <string name="txt_desc_btn_dzikir_pagi_petang"><![CDATA[Button Navigasi Dzikir Pagi & Petang]]></string>
+    <string name="txt_dzikir_petang">Dzikir Petang</string>
+    <string name="txt_desc_image_artikel">Image Artikel</string>
     <string-array name="img_artikel">
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>

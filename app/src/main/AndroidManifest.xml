@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qonita.dzikirapp">
+    package="com.qonita.dzikirapp" >
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DzikirApp">
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SplashActivity"
-            android:theme="@style/SplashTheme">
+        android:theme="@style/Theme.DzikirApp" >
+        <activity android:name=".DzikirSetiapSaatActivity" >
+        </activity>
+        <activity android:name="com.example.doadandzikirapp.ui.detail.DetailArtikelActivity" />
+        <activity android:name="com.example.doadandzikirapp.ui.detail.DzikirPagiActivity" />
+        <activity android:name="com.example.doadandzikirapp.ui.detail.DzikirPetangActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.doadandzikirapp.ui.PagiPetangDzikirActivity" />
+        <activity android:name=".ui.SetiapSaatDzikirActivity" />
+        <activity android:name=".ui.DoaHarianActivity" />
+        <activity android:name=".ui.QauliyahActivity"/>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

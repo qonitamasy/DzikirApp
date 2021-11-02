@@ -1,4 +1,4 @@
-package com.qonita.dzikirapp
+package com.qonita.dzikirapp.model
 
 object DataDzikirDoa {
     private val descQauliyah = arrayOf(

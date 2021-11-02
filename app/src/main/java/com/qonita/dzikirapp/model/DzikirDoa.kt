@@ -1,4 +1,4 @@
-package com.qonita.dzikirapp
+package com.qonita.dzikirapp.model
 
 data class DzikirDoa(
     var desc : String ="",

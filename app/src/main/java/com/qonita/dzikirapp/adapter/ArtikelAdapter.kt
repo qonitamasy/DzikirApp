@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.qonita.dzikirapp.model.Artikel
 
 class ArtikelAdapter (private val listArtikel : ArrayList<Artikel>):
     RecyclerView.Adapter<ArtikelAdapter.MyViewHolder>(){
